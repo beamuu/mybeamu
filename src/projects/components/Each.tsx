@@ -78,21 +78,22 @@ export const Each: FC<EachProjectCardProps> = (props) => {
                 </Button>
               </Link>
             ) : null}
-
-            <Button
-              variant="contained"
-              size="small"
-              color="secondary"
-              sx={{
-                fontSize: 10,
-                fontWeight: 700,
-                borderRadius: 100,
-                textTransform: "uppercase",
-                gap: "8px",
-              }}
-            >
-              View on GitHub <BsGithub size="14px" />
-            </Button>
+            <Link href={props.href} target="__blank">
+              <Button
+                variant="contained"
+                size="small"
+                color="secondary"
+                sx={{
+                  fontSize: 10,
+                  fontWeight: 700,
+                  borderRadius: 100,
+                  textTransform: "uppercase",
+                  gap: "8px",
+                }}
+              >
+                View on GitHub <BsGithub size="14px" />
+              </Button>
+            </Link>
           </Stack>
         </Box>
       </Box>

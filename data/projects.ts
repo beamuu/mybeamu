@@ -5,7 +5,7 @@ export const projects: { [key: string]: Project } = {
   kraikub: {
     title: "KRAIKUB",
     description: "Kasetsart University Identity Provider",
-    href: "",
+    href: "https://github.com/kraikub",
     imgSrc: "https://avatars.githubusercontent.com/u/113832333?s=200&v=4",
     demoUrl: "https://kraikub.com",
     labels: [
@@ -26,7 +26,7 @@ export const projects: { [key: string]: Project } = {
   katrade: {
     title: "Katrade",
     description: "Items trading platform for Kasetsart University Student.",
-    href: "",
+    href: "https://github.com/katrade/katrade-website",
     imgSrc: "https://avatars.githubusercontent.com/u/86873259?s=200&v=4",
     disableImgBorder: true,
     labels: [
@@ -44,7 +44,7 @@ export const projects: { [key: string]: Project } = {
   "web3-twitter": {
     title: "Web3 Twitter",
     description: "Simple implementation of Twitter using Web 3.0 stacks.",
-    href: "",
+    href: "https://github.com/beamuu/web3-twitter",
     imgSrc: "https://cdn-icons-png.flaticon.com/512/124/124021.png",
     disableImgBorder: true,
     labels: [
@@ -61,7 +61,7 @@ export const projects: { [key: string]: Project } = {
   "swap-clone": {
     title: "Pancakeswap Clone (V2)",
     description: "Decentralized Exchange",
-    href: "",
+    href: "https://github.com/beamuu/swap-frontend",
     imgSrc: githubLogo,
     labels: [
       "Web 3.0",
@@ -76,7 +76,7 @@ export const projects: { [key: string]: Project } = {
   medsproject: {
     title: "MEDPROJECTS",
     description: "Stores medical record on a blockchain.",
-    href: "",
+    href: "https://github.com/beamuu/medprojects",
     demoUrl: "https://medprojects9.web.app/",
     imgSrc: githubLogo,
     labels: [
@@ -91,7 +91,7 @@ export const projects: { [key: string]: Project } = {
   cryptoprices: {
     title: "Cryptoprices",
     description: "Display cryptocurrency prices from Bitkub API",
-    href: "",
+    href: "https://github.com/beamuu/cryptoprices",
     imgSrc: githubLogo,
     demoUrl: "https://cryptonutchanonc.web.app/",
     labels: ["Frontend", "Reactjs", "Styled-components", "Bootstrap"],
@@ -99,7 +99,7 @@ export const projects: { [key: string]: Project } = {
   keybong: {
     title: "KEYBONG",
     description: "A Hand Gesture Keyboard",
-    href: "",
+    href: "https://github.com/beamuu/hand-keyboard",
     imgSrc: githubLogo,
     demoUrl: "https://youtu.be/ECyumn-3JE4",
     labels: ["Backend", "Python", "Websocket", "ESP32"],
@@ -107,7 +107,7 @@ export const projects: { [key: string]: Project } = {
   authy: {
     title: "Authy ID Card",
     description: "Smart magnetic card authentication system",
-    href: "",
+    href: "https://github.com/beamuu/authy-practicum",
     imgSrc: githubLogo,
     demoUrl: "https://www.youtube.com/watch?v=JorYEMPMWxw",
     labels: ["Frontend", "HTML", "CSS"],
@@ -115,7 +115,7 @@ export const projects: { [key: string]: Project } = {
   lemoncat: {
     title: "Lemoncat",
     description: "Publicly Shared Notepad",
-    href: "",
+    href: "https://github.com/beamuu/lemoncat",
     imgSrc: githubLogo,
     labels: ["Frontend", "HTML", "CSS"],
   },
