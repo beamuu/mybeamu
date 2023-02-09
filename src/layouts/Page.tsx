@@ -9,7 +9,7 @@ export const Page: FC<PageProps> = (props) => {
   return (
     <Box>
       <Navbar />
-      <Box mt={14}>{props.children}</Box>
+      <Box mt={14} mb={10}>{props.children}</Box>
     </Box>
   );
 };

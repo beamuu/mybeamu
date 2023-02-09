@@ -120,3 +120,35 @@ export const projects: { [key: string]: Project } = {
     labels: ["Frontend", "HTML", "CSS"],
   },
 };
+
+export const eduProjects: { [key: string]: Project } = {
+  k8s: {
+    title: "Try k8s",
+    description: "Basic tutorial for Kubernetes",
+    href: "https://github.com/beamuu/try-k8s",
+    imgSrc: githubLogo,
+    labels: ["DevOps", "Kubernetes"],
+  },
+  "gin-redis": {
+    title: "Gin-Redis",
+    description: "Tutorial of using RESTful API with Redis",
+    href: "https://github.com/beamuu/gin-redis",
+    imgSrc: githubLogo,
+    labels: ["Go", "Gin", "Redis"],
+  },
+  "reentrancy": {
+    title: "Reentrancy",
+    description: "Learn how reentracy attack works in smrt contract",
+    href: "https://github.com/beamuu/nft-contract-assignment",
+    imgSrc: githubLogo,
+    labels: ["Solidity", "Ethereum", "Smart Contract Security"],
+  },
+  "go-ethereum-events": {
+    title: "Go Ethereum Events",
+    description: "Learn how to subscribe to events on a smart contract",
+    href: "https://github.com/beamuu/go-ethereum-events",
+    imgSrc: githubLogo,
+    labels: ["Go", "Ethereum", "Smart Contract"],
+  },
+
+}
