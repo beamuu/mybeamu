@@ -14,7 +14,7 @@ export const Navbar = () => {
         left: 0,
         right: 0,
         width: "100vw",
-        py: 2,
+        py: 1,
         zIndex: theme.zIndex.appBar,
         borderStyle: "solid",
         borderWidth: "0 0 1px 0",
@@ -27,8 +27,8 @@ export const Navbar = () => {
           alignItems="center"
           justifyContent="space-between"
         >
-          <Typography variant="h5" fontWeight={600}>
-            Beamu
+          <Typography variant="h6" fontWeight={600}>
+            😎
           </Typography>
           <Link href="mailto:nutchanon.chant@gmail.com">
             <Button size="small" color="info" variant="contained">Contact me</Button>

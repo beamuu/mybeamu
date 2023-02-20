@@ -21,6 +21,8 @@ export const projects: { [key: string]: Project } = {
       "DigitalOcean",
       "Cloudflare",
       "Nginx",
+      "Kubernetes",
+      "Google Cloud Platform",
     ],
   },
   katrade: {
@@ -38,7 +40,7 @@ export const projects: { [key: string]: Project } = {
       "Styled-components",
       "Axios",
       "Firebase",
-      "Materual UI",
+      "Material UI",
     ],
   },
   "web3-twitter": {
@@ -138,7 +140,7 @@ export const eduProjects: { [key: string]: Project } = {
   },
   "reentrancy": {
     title: "Reentrancy",
-    description: "Learn how reentracy attack works in smrt contract",
+    description: "Learn how reentracy attack works in smart contract",
     href: "https://github.com/beamuu/nft-contract-assignment",
     imgSrc: githubLogo,
     labels: ["Solidity", "Ethereum", "Smart Contract Security"],
